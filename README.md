@@ -23,8 +23,7 @@ fake-job-detector/
 │   ├── 03_Modeling_OCSVM.ipynb
 │   ├── 04_Modeling_IF.ipynb
 │   └── 05_Ensemble_Eval_with_Keywords.ipynb
-├── data/
-│   └── fake_job_postings.csv
+├──  fake_job_postings.csv
 ├── requirements.txt       # Project dependencies
 ├── README.md              # Project guide
 ```
