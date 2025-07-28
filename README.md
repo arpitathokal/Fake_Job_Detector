@@ -1,6 +1,7 @@
 🕵️‍♀️ Fake Job Detector
 
 Detect fake job postings using Machine Learning and Natural Language Processing (NLP).
+---
 
 Overview
 
@@ -17,6 +18,7 @@ fake-job-detector/
 ├── fake_job_posting.csv
 ├── README.md # Project guide
 
+---
 ⚙️ Features
 
 - EDA with visualizations
@@ -41,6 +43,8 @@ Install requirements:
 bash
 pip install -r requirements.txt 
 
+---
+
 🧠 Model Training
 Train and evaluate using the notebooks in this order:
 
@@ -50,10 +54,13 @@ Train and evaluate using the notebooks in this order:
 04_Modeling_IF.ipynb
 05_Ensemble_Eval_with_Keywords.ipynb
 
+---
+
 💡 How It Works
 Text data is vectorized using TF-IDF
 A soft-voting ensemble predicts final results
 UI displays real/fake label with confidence score
+---
 
 👩‍💻 Author
 Arpita Thokal
