@@ -1,0 +1,79 @@
+{
+  "combined_text_col": "combined_text",
+  "text_cols_used": [
+    "description_cleaned",
+    "requirements_cleaned",
+    "benefits_cleaned",
+    "company_profile_cleaned"
+  ],
+  "numeric_cols_used": [
+    "description_word_count",
+    "requirements_word_count",
+    "benefits_word_count",
+    "company_profile_word_count"
+  ],
+  "max_tfidf_features": 2000,
+  "random_state": 42,
+  "models": [
+    "NB",
+    "LR",
+    "DT",
+    "RF",
+    "Voting(soft)"
+  ],
+  "grids": {
+    "NB": {
+      "alpha": [
+        0.5,
+        1.0,
+        1.5
+      ]
+    },
+    "LR": {
+      "C": [
+        0.1,
+        1,
+        10
+      ],
+      "penalty": [
+        "l2"
+      ],
+      "solver": [
+        "lbfgs"
+      ]
+    },
+    "DT": {
+      "max_depth": [
+        null,
+        10,
+        20
+      ],
+      "min_samples_split": [
+        2,
+        5
+      ],
+      "min_samples_leaf": [
+        1,
+        2
+      ]
+    },
+    "RF": {
+      "n_estimators": [
+        100,
+        200
+      ],
+      "max_depth": [
+        null,
+        10
+      ],
+      "min_samples_split": [
+        2,
+        5
+      ],
+      "min_samples_leaf": [
+        1,
+        2
+      ]
+    }
+  }
+}
