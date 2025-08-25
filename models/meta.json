@@ -6,13 +6,17 @@
     "benefits_cleaned",
     "company_profile_cleaned"
   ],
+  "categorical_cols_used": [
+    "employment_type",
+    "country"
+  ],
   "numeric_cols_used": [
     "description_word_count",
     "requirements_word_count",
     "benefits_word_count",
     "company_profile_word_count"
   ],
-  "max_tfidf_features": 2000,
+  "max_tfidf_features": 5000,
   "random_state": 42,
   "models": [
     "NB",
