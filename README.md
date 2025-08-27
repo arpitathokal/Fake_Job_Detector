@@ -7,9 +7,9 @@ Detect fake job postings using Machine Learning and Natural Language Processing 
 
 This project identifies fraudulent job advertisements by combining text features (title, description, requirements) with structured signals (e.g., employment type, country). It includes:
 
--A trained soft-voting ensemble (LR, RF, NB, DT)
--A Streamlit web app for real-time predictions
--Reproducible notebooks for EDA and model training
+- A trained soft-voting ensemble (LR, RF, NB, DT)
+- A Streamlit web app for real-time predictions
+- Reproducible notebooks for EDA and model training
 ---
 
 ### 📁 Project Structure
@@ -34,12 +34,12 @@ fake-job-detector/
 ---
 ### ⚙️ Features
 
--EDA with visualizations (class imbalance, metadata distribution, etc.)
--Preprocessing pipeline: text cleaning, lemmatization, one-hot encoding
--Feature extraction with TF-IDF (text) + metadata
--Supervised models: Logistic Regression, Decision Tree, Random Forest, Naïve Bayes
--Soft-voting ensemble for balanced performance
--Streamlit app for interactive job posting classification
+- EDA with visualizations (class imbalance, metadata distribution, etc.)
+- Preprocessing pipeline: text cleaning, lemmatization, one-hot encoding
+- Feature extraction with TF-IDF (text) + metadata
+- Supervised models: Logistic Regression, Decision Tree, Random Forest, Naïve Bayes
+- Soft-voting ensemble for balanced performance
+- Streamlit app for interactive job posting classification
 
 ---
 
