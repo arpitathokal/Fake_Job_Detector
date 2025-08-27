@@ -26,6 +26,7 @@ fake-job-detector/
 ├── notebooks/             # EDA and model training notebooks
 │   ├── 01_EDA.ipynb
 │   ├── 02_Supervised_ensemble.ipynb
+├── Supervised_ensemble.ipynb   #runed using Colab
 ├──  fake_job_postings.csv  #dataset
 ├── requirements.txt       # Project dependencies
 ├── README.md              # Project guide
